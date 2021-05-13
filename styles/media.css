@@ -1,0 +1,245 @@
+@media only screen and (max-width: 900px) {
+    .navbar_brand {
+        width: 250px;
+        height: 20px;
+    }
+    .head_nav_link {
+        font-size: 18px;
+    }
+    .burger_menu_icon {
+        display: block;
+    }
+    .head_nav_list {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .burger_menu_icon {
+        display: block;
+    }
+    .head_nav_list {
+        display: none;
+    }
+    .header_title_text {
+        font-size: 40px;
+    }
+    .header_small_text_ {
+        font-size: 18px;
+    }
+    .col_3  {
+        width: 48%;
+    }
+    .share_facebook_block {
+        width: 50%;
+        padding: 8px 15px 11px 15px;
+    }
+    .card_three_title_block {
+        font-size: 18px;
+    }
+    .card_three_list_item {
+        font-size: 18px;
+    }
+    .card_three_description_text {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 646px) {
+
+}
+@media only screen and (max-width: 626px) {
+    .information_span  {
+        font-size: 17px;
+    }
+    .information_text {
+        font-size: 16px;
+    } 
+    .information_text_block {
+        max-width: 450px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .card_one_about, .card_one_span {
+        font-size: 16px;
+    }
+    .information_text_block {
+        max-width: 420px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .col_3 {
+        width: 100%;
+    }
+    .card_one_people_block {
+        flex-direction: column;
+    }
+    .col_1_flex {
+        width: 100%;
+        display: flex;
+        /* justify-content: space-between; */
+        margin-top: 23px;
+    }
+    .col_5 {
+        width: 33% !important;
+    }
+    .facebook_img_block3  {
+        display: block;
+        padding: 14px 25px 10px 25px;
+        margin-left: 5px;
+    }
+    .facebook_img_block {
+        outline: none;
+        max-width: 100%;
+        text-align: center;
+        margin-left: 0;
+        border-right: 1px solid rgb(99, 97, 97, 0.5);
+        border-top: 1px solid rgb(99, 97, 97, 0.5);
+        border-bottom: 1px solid rgb(99, 97, 97, 0.5);
+        border-radius: 0%;
+    }
+    .facebook_img_block1 {
+        border-left: 1px solid rgb(99, 97, 97, 0.5);
+    }
+    .people_name, .date_  {
+        font-size: 13px;
+    }
+    .card_one_people_block {
+        margin-bottom: 32px;
+    }
+    .card_one_span {
+        margin-top: 20px;
+    }
+    .card_one_description_block {
+        margin-bottom: 42px;
+    }
+    .description_block_title  {
+        font-size: 26px;
+    }
+    .description_block_title  {
+        margin-bottom: 19px;
+    }
+    .card_two_title  {
+        font-size: 13px;
+    }
+    .card_two_description_title  {
+        margin-bottom: 42px;
+    }
+    .card_three_title_block, .card_three_list_block, .card_three_description_block,.thank_block {
+        display: none;
+    }
+    .share_text {
+        display: block;
+    }
+    .share_block {
+        display: none;
+    }
+    .d_none {
+        display: block;
+    }
+    .share_facebook_block {
+        display: none;
+    }
+    .flex_two_block {
+        margin-bottom: 24px;
+    }
+    .tags {
+        margin-bottom: 25px;
+    } 
+    .line_doted {
+        margin-bottom: 28px;
+    }
+    .people_information  {
+        margin-bottom: 60px;
+    }
+    .section_1  {
+        margin-bottom: 62px;
+    }
+    .section_2_title  {
+        font-size: 32px;
+    }
+    .row_3  {
+        margin-bottom: 82px;
+    }
+    .information_img {
+        position: static;
+        float: left;
+        margin-right: 10px;
+    }
+    .information_text {
+        position: static;
+        padding: 0;
+    }
+    .col_3:nth-last-child(-n + 3){
+        display: none;
+    }
+}
+@media only screen and (max-width: 577px) {
+    .signup_block  {
+        padding: 42px 36px;
+    }
+    .signup_title  {
+        font-size: 29px;
+    }
+    .signup_description {
+        font-size: 16px;
+    }
+    .signup_btn  {
+        font-size: 16px;
+        text-align: center;
+        padding: 19px 13px;
+    }
+    .signup_emiail {
+        width: 205px;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .signup_emiail {
+        font-size: 16px;
+    }
+    .signup_btn  {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .information_span {
+        font-size: 15px;
+    }
+    .information_text  {
+        font-size: 14px;
+    }
+    .navbar_brand {
+        width: 217px;
+        font-size: 36px;
+    }
+
+    .header_small_text_  {
+        font-size: 16px;
+        margin-bottom: 36px;
+    }
+    .header_title_text {
+        margin-bottom: 24px;
+    }
+    .signup_emiail {
+        width: 190px;
+        font-size: 16px;
+    }
+    .signup_btn {
+        font-size: 16px;
+        padding: 10px 17px;
+    }
+    .navbar {
+        height: 65px;
+    }
+    .header_title_text {
+        font-size: 36px;
+    }
+    .description_text  {
+        font-size: 13px;
+    }
+    .last_text  {
+        font-size: 12px;
+    }
+}
